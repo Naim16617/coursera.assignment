@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 850px;
+}
+
+header{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: 3em;
+    text-align: center;
+    background-color: beige;
+}
+
+.art{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+}
+
+.colbox{
+    margin: 5px;
+    box-sizing: border-box;
+    float:left;
+    border: 1px solid black;
+    height: 300px;
+    background-color: dimgrey;
+    position: relative;
+    padding: 92px 10px 10px 10px;
+    border-radius: 8px;
+}
+
+.sub_sec{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 54%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 3em;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#sub1{
+    background-color: tomato;
+}
+
+#sub2{
+    background-color: red;
+    color: white;
+}
+
+#sub3{
+    background-color: orange;
+}
+
+.quotes{
+    font-family: Palette Mosaic,cursive;
+    font-size: 1em;
+    /* clear:both; */
+}
+
+.author{
+    margin-left: 24%;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: fantasy;
+}
+
+@media screen and (min-width: 992px){
+    /*Bootstrap column dividing style for given assignment*/
+    .col-lg-4 { 
+        width: 32%; 
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    /*Bootstrap column dividing style for given assignment*/
+    .col-md-6 {
+        width: 48.5%;
+    }
+
+    .colbox{
+        height: 259px;
+    }
+
+    #colbox3{
+        width: 98%;
+    }
+}
+
+@media screen and (max-width:767px){
+    /*Bootstrap column dividing style for given assignment*/
+    .col-sm-12 {
+        width: 99%;
+    }
+
+    .colbox{
+        height: 220px;
+    }
+}
