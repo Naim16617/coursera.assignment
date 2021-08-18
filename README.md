@@ -1,1 +1,1 @@
-# coursera.assignment
+# cousera_assignments
